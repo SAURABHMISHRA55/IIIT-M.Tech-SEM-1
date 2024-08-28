@@ -18,8 +18,8 @@ their distance from Jaggu is less than 2 units or H hours are over.
 - executing BY following commands in terminal 
 
 ```shell
-chmod 777 2023201033_A1_q1.sh
-./2023201033_A1_q1.sh
+chmod 777 2023201034_A1_q1.sh
+./2023201034_A1_q1.sh
 ```
 
 ### Assumption
@@ -47,8 +47,8 @@ stock and choosing a different future day to sell that stock.
 - executing BY following commands in terminal 
 
 ```shell
-chmod 777 2023201033_A1_q2.sh
-./2023201033_A1_q2.sh
+chmod 777 2023201034_A1_q2.sh
+./2023201034_A1_q2.sh
 ```
 
 ### Assumption
@@ -67,8 +67,8 @@ order of the special symbols along with their relative position remains the same
 - By executing following commands in the terminal (LINUX) you can run the program.
 
 ```shell
-chmod 777 2023201033_A1_q3.sh
-./2023201033_A1_q3.sh 
+chmod 777 2023201034_A1_q3.sh
+./2023201034_A1_q3.sh 
 ```
 
 ### Assumption
@@ -88,7 +88,7 @@ UpdatedEmpSkills - (emp_no, curr_salary, increment, new_salary, skill_level)
 - By executing following commands in the sql workbench  you can run the program.
 
 
-1. open the program 2023201033_A1_q4.sql .
+1. open the program 2023201034_A1_q4.sql .
 
 2. you have to add paths in code for apropriate csv files.
 
@@ -114,7 +114,7 @@ three items, the answer for that person would be a disappointing "No".
 - By executing following commands in the sql workbench  you can run the program.
 
 
-1. open the program 2023201033_A1_q5.sql.
+1. open the program 2023201034_A1_q5.sql.
 
 2. you have to import the table manually(by right clicking the data base button) after running the code once.
 

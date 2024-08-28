@@ -14,7 +14,7 @@ print("=======================> OUTPUT OF QUESTION 3 <======================")
 print()
 pandas_df = transaction_counts.toPandas()
 output_file = "transaction_counts.csv"
-output_dir = "./2023201024_q3/"
+output_dir = "./2023201034_q3/"
 output_path = os.path.join(output_dir, output_file)
 
 if not os.path.exists(output_dir):

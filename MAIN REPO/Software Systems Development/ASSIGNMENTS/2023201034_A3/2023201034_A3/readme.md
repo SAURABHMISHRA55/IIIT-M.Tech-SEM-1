@@ -13,7 +13,7 @@ Menu:
 ● Exit/Export.
 
 ### running the code:
-- ```bash python 2023201024_A3_Q1.py```
+- ```bash python 2023201034_A3_Q1.py```
 ### Assumptions:
 - multiple names will be given using comma as seperator
 - the person who paid the bill will not automatically included into the participants list, if person who pays is involved then his expense has to be given in list
@@ -41,7 +41,7 @@ If the player is an All-rounder, then Strike rate = max(Batting Strike rate, Bow
 Strike rate)
 
 ### running the code:
-- ```bash python 2023201024_A3_Q2.py```
+- ```bash python 2023201034_A3_Q2.py```
 ### Assumptions:
 - while updating and deleting I am choosing the record based on index value.
 - calulated the strike rate only if it not provided by user
@@ -56,7 +56,7 @@ data visualization library. This is an extension of the first 2 questions. The
 expenses.csv you generated in the first question will be used as the base for
 creating pie charts here
 ### running the code:
-- ```bash python 2023201024_A3_Q3.py```
+- ```bash python 2023201034_A3_Q3.py```
 ### Assumptions:
 - assumed that the -ve value shows the data Gets back,  +ve owes
 - I have assumed from the example given that For batsman only batting average would be shown, for Bowler only bowling average is shown. and for all rounder both will be shown

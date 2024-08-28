@@ -2,7 +2,7 @@
 
 ## running
 - download and run using following command
-- python 2023201024.py
+- python 2023201034.py
 
 need to install modules
 - csv

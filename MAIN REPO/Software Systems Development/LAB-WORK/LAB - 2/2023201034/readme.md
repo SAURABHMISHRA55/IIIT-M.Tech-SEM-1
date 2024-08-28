@@ -8,8 +8,8 @@ rows in each pyramid. No pyramid should be printed if ‘n’ is even
 - By executing folling commands in the terminal (LINUX) you can run the program.
 
 ```shell
-chmod +x 2023201024_q1.sh
-./2023201024_q1.sh
+chmod +x 2023201034_q1.sh
+./2023201034_q1.sh
 ```
 
 ### Assumption
@@ -39,8 +39,8 @@ files/directories in the long format that satisfy the following conditions:
 - By executing folling commands in the terminal (LINUX) you can run the program.
 
 ```shell
-chmod +x 2023201024_q2.sh
-./2023201024_q2.sh <path>
+chmod +x 2023201034_q2.sh
+./2023201034_q2.sh <path>
 ```
 
 ### Assumption

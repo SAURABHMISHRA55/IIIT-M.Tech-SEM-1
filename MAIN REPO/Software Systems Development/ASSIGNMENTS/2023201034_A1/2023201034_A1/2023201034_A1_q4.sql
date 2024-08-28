@@ -44,7 +44,7 @@ CREATE TABLE Assignment1.UpdatedEmpSkills(
 -- --------------------------------------------------------------------------------------
 -- 		Loading the data from csv files
 -- ---------------------------------------------------------------------------------------
-LOAD DATA LOCAL INFILE '/home/spartan/2023201024_A1/Question\ 4/Employee.csv'
+LOAD DATA LOCAL INFILE '/home/spartan/2023201034_A1/Question\ 4/Employee.csv'
 INTO TABLE Assignment1.Employee
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -56,7 +56,7 @@ SET emp_joining_date = STR_TO_DATE(@emp_joining_date, '%d-%m-%Y');
 
 -- ---------------------------------------------------------------------------------------
 
-LOAD DATA LOCAL INFILE '/home/spartan/2023201024_A1/Question\ 4/Courses.csv'
+LOAD DATA LOCAL INFILE '/home/spartan/2023201034_A1/Question\ 4/Courses.csv'
 INTO TABLE Assignment1.Courses
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -67,7 +67,7 @@ IGNORE 1 LINES
 
 -- ---------------------------------------------------------------------------------------
 
-LOAD DATA LOCAL INFILE '/home/spartan/2023201024_A1/Question\ 4/Certifications.csv'
+LOAD DATA LOCAL INFILE '/home/spartan/2023201034_A1/Question\ 4/Certifications.csv'
 INTO TABLE Assignment1.Certifications
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -76,7 +76,7 @@ IGNORE 1 LINES;
 
 -- ---------------------------------------------------------------------------------------
 
-LOAD DATA LOCAL INFILE '/home/spartan/2023201024_A1/Question\ 4/CourseCompletions.csv'
+LOAD DATA LOCAL INFILE '/home/spartan/2023201034_A1/Question\ 4/CourseCompletions.csv'
 INTO TABLE Assignment1.CourseCompletions
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -86,7 +86,7 @@ SET date_completed = STR_TO_DATE(@date_completed, '%d-%m-%Y');
 
 -- ----------------------------------------------------------------------------------------
 
-LOAD DATA LOCAL INFILE '/home/spartan/2023201024_A1/Question\ 4/CertificateCompletions.csv'
+LOAD DATA LOCAL INFILE '/home/spartan/2023201034_A1/Question\ 4/CertificateCompletions.csv'
 INTO TABLE Assignment1.CertificateCompletions
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
